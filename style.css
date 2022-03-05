@@ -200,6 +200,14 @@ header {
   margin-top: 0;
 }
 
+#incomesDisplay {
+  color: var(--green);
+}
+
+#expensesDisplay {
+  color: var(--red);
+}
+
 /* #region Cards */
 .card {
   background: var(--white);
