@@ -32,6 +32,10 @@ O dev.finance$ é uma aplicação de controle financeiro, onde é possível cada
 
 O projeto foi desenvolvido em HTML, CSS e JavaScript e utiliza o LocalStorage para guardar os dados transacionais.
 
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
