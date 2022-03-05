@@ -306,7 +306,7 @@ footer {
   #balance {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1.5rem;
   }
 }
 /* #endregion Responsive */
