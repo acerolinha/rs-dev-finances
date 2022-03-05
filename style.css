@@ -112,6 +112,10 @@ button:hover {
   opacity: 1;
 }
 
+.remove {
+  cursor: pointer;
+}
+
 /* #endregion Links & Buttons */
 
 /* #region Modal */
