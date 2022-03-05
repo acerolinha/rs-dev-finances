@@ -1,6 +1,6 @@
 const Utils = {
   formatAmount(value) {
-    return Number(value) * 100;
+    return Math.round(value * 100);
   },
   formatCurrency(value) {
     const signal = Number(value) < 0 ? "-" : "";
