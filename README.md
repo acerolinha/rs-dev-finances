@@ -10,8 +10,6 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-<br>
-
 <a href="https://felipehac.github.io/rs-challenge-dev-finances/">
 <p align="center">
   <img alt="Demonstração do Aplicativo Dev Finances" src=".github/showcase.png" width="100%">
