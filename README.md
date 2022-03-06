@@ -12,11 +12,13 @@
 
 <br>
 
+<a href="https://felipehac.github.io/rs-challenge-dev-finances/">
 <p align="center">
   <img alt="Demonstração do Aplicativo Dev Finances" src=".github/showcase.png" width="100%">
 </p>
 
-<p align="center"><strong><a href="https://felipehac.github.io/rs-challenge-dev-finances/">VER DEMO</a></strong></p>
+<p align="center"><strong>VER DEMO</strong></p>
+</a>
 
 ## 🚀 Tecnologias
 
