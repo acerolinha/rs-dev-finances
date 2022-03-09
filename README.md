@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a> | <a href="#-projeto">Projeto</a> | <a href="#-layout">Layout</a> | <a href="#-licença">Licença</a>
+  <a href="#-stack">Stack</a> | <a href="#-project">Project</a> | <a href="#-layout">Layout</a> | <a href="#-license">License</a>
 </p>
 
 <p align="center">
@@ -12,32 +12,32 @@
 
 <a href="https://felipehac.github.io/rs-dev-finances/">
 <p align="center">
-  <img alt="Demonstração do Aplicativo Dev Finances" src=".github/showcase.png" width="100%">
+  <img alt="Dev Finances Live Demo" src=".github/showcase.png" width="100%">
 </p>
 
-<p align="center"><strong>VER DEMO</strong></p>
+<p align="center"><strong>LIVE DEMO</strong></p>
 </a>
 
-## 🚀 Tecnologias
+## 🚀 Stack
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following stack:
 
 - HTML
 - CSS
 - JavaScript
 
-## 💻 Projeto
+## 💻 Project
 
-O dev.finance$ é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰.
+**dev.finance$** is a financial control application, where you can register and delete transactions and see the incoming and outgoing balance 💰.
 
-O projeto foi desenvolvido em HTML, CSS e JavaScript e utiliza o LocalStorage para guardar os dados transacionais.
+The project was developed in HTML, CSS and JavaScript and uses LocalStorage to store transactional data.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+You can view the project layout through [this link]((https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). You need an account on [Figma](https://figma.com) to access it.
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the file [LICENSE](LICENSE.md) for more details.
 
 ---
