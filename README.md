@@ -34,7 +34,7 @@ The project was developed in HTML, CSS and JavaScript and uses LocalStorage to s
 
 ## 🔖 Layout
 
-You can view the project layout through [this link]((https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). You need an account on [Figma](https://figma.com) to access it.
+You can view the project layout through [this link](https://www.figma.com/file/7Vu9DzUaCZIV4nibzkjgB4/dev.finance%24-Maratona-Discover). You need an account on [Figma](https://figma.com) to access it.
 
 ## 📝 License
 
