@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,11 +20,11 @@
 
     <main class="container">
       <section id="balance">
-        <h2 class="sr-only">Balanço</h2>
+        <h2 class="sr-only">Balance</h2>
 
         <div class="card">
           <h3>
-            <span>Entradas</span>
+            <span>Incomes</span>
             <img src="./assets/income.svg" alt="Imagem de entradas" />
           </h3>
           <p id="incomesDisplay">R$ 0,00</p>
@@ -32,7 +32,7 @@
 
         <div class="card">
           <h3>
-            <span>Saídas</span>
+            <span>Expenses</span>
             <img src="./assets/expense.svg" alt="Imagem de saídas" />
           </h3>
           <p id="expensesDisplay">R$ 0,00</p>
@@ -40,7 +40,7 @@
 
         <div class="card total">
           <h3>
-            <span> Total </span>
+            <span>Total</span>
             <img src="./assets/total.svg" alt="Imagem de total" />
           </h3>
           <p id="totalDisplay">R$ 0,00</p>
@@ -48,16 +48,16 @@
       </section>
 
       <section id="transactions">
-        <h2 class="sr-only">Transações</h2>
+        <h2 class="sr-only">Transactions</h2>
         <a href="#" class="button new" onclick="Modal.open()"
-          >+ Nova Transação</a
+          >+ New Transaction</a
         >
         <table id="data-table">
           <thead>
             <tr>
-              <th>Descrição</th>
-              <th>Valor</th>
-              <th>Data</th>
+              <th>Description</th>
+              <th>Value</th>
+              <th>Date</th>
               <th></th>
             </tr>
           </thead>
@@ -70,19 +70,19 @@
       <div class="modal">
         <div class="modal-content">
           <div id="form">
-            <h2>Nova Transação</h2>
+            <h2>New Transaction</h2>
             <form action="" onsubmit="Form.submit(event)">
               <div class="input-group">
-                <label class="sr-only" for="description">Descrição</label>
+                <label class="sr-only" for="description">Description</label>
                 <input
                   type="text"
-                  placeholder="Descrição"
+                  placeholder="Description"
                   id="description"
                   name="description"
                 />
               </div>
               <div class="input-group">
-                <label class="sr-only" for="amount">Valor</label>
+                <label class="sr-only" for="amount">Value</label>
                 <input
                   type="number"
                   step="0.01"
@@ -91,19 +91,19 @@
                   name="amount"
                 />
                 <small class="help">
-                  Use o sinal - (negativo) para despas e , (vírgula) para casas
-                  decimais
+                  Use the sign - (negative) for decimal places and , (comma) for
+                  decimal places
                 </small>
               </div>
               <div class="input-group">
-                <label class="sr-only" for="date">Data</label>
+                <label class="sr-only" for="date">Date</label>
                 <input type="date" id="date" name="date" />
               </div>
               <div class="input-group actions">
                 <a href="#" class="button cancel" onclick="Modal.close()"
-                  >Cancelar</a
+                  >Cancel</a
                 >
-                <button>Salvar</button>
+                <button>Save</button>
               </div>
             </form>
           </div>

@@ -6,9 +6,9 @@ const Utils = {
     const signal = Number(value) < 0 ? "-" : "";
     value = String(value).replace(/\D/, "");
     value = Number(value) / 100;
-    value = value.toLocaleString("pt-BR", {
+    value = value.toLocaleString("en-US", {
       style: "currency",
-      currency: "BRL",
+      currency: "USD",
     });
     return signal + value;
   },
@@ -79,7 +79,7 @@ const DOM = {
       <td class="description">${transaction.description}</td>
       <td class="${CSSclass}">${amount}</td>
       <td class="date">${transaction.date}</td>
-      <td><img class="remove" onclick="Transaction.remove(${index})" src="./assets/minus.svg" alt="Remover transação" /></td>
+      <td><img class="remove" onclick="Transaction.remove(${index})" src="./assets/minus.svg" alt="Remove transaction" /></td>
       `;
     return html;
   },
@@ -117,7 +117,7 @@ const Form = {
       amount.trim() === "" ||
       date.trim() === ""
     ) {
-      throw new Error("Por favor, preencha todos os campos!");
+      throw new Error("Please, fill in all fields!");
     }
     console.log(Form.getValues());
   },
