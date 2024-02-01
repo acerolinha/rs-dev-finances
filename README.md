@@ -10,7 +10,7 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-<a href="https://felipehac.github.io/rs-dev-finances/">
+<a href="https://agnostk.github.io/rs-dev-finances/">
 <p align="center">
   <img alt="Dev Finances Live Demo" src=".github/showcase.png" width="100%">
 </p>
